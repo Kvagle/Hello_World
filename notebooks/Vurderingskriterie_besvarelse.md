@@ -24,7 +24,7 @@ Oppgave 3
 
 2. Kan du gi et eksempel på hvordan du vil bruke list comprehensions for å manipulere dataene?
 
-
+    
 
 3. Hvordan kan Pandas SQL (sqldf) forbedre datamanipuleringen sammenlignet med tradisjonelle Pandas-operasjoner?
 
