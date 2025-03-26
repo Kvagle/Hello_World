@@ -22,4 +22,6 @@ Oppgave 3
 
 3. Hvordan kan Pandas SQL (sqldf) forbedre datamanipuleringen sammenlignet med tradisjonelle Pandas-operasjoner?
 
+    Det finnes flere grunner for å bruke pandas SQL ovenfor tradisjonelle Pandas-operasjoner. En god grunn kan være det at SQL-syntaks er ofte mer intuitivt og lettere å lese. 
+
 4. Hvilke spesifikke uregelmessigheter i dataene forventer du å møte, og hvordan planlegger du å håndtere dem?
