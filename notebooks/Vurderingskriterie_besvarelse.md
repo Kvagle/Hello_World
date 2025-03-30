@@ -24,7 +24,7 @@ Oppgave 3
 
 2. Kan du gi et eksempel på hvordan du vil bruke list comprehensions for å manipulere dataene?
 
-    
+    Vi bruker list comprehensions tidsstemplene mer lesbare. Under kommentaren "List Comprehensions", kan man se hvordan vi har brukt list comprehensions til å bytte ut "T" i tidsstemplene med et mellomrom. På denne måte kan vi formatere datene uten å måtte bruke eksplisitte løkker, og det er mer effektivt. 
 
 3. Hvordan kan Pandas SQL (sqldf) forbedre datamanipuleringen sammenlignet med tradisjonelle Pandas-operasjoner?
 
