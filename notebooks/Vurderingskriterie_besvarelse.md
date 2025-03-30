@@ -24,10 +24,19 @@ Oppgave 3
 
 2. Kan du gi et eksempel på hvordan du vil bruke list comprehensions for å manipulere dataene?
 
-    Vi bruker list comprehensions tidsstemplene mer lesbare. Under kommentaren "List Comprehensions", kan man se hvordan vi har brukt list comprehensions til å bytte ut "T" i tidsstemplene med et mellomrom. På denne måte kan vi formatere datene uten å måtte bruke eksplisitte løkker, og det er mer effektivt. 
+    Vi bruker list comprehensions for å gjøre tidsstemplene mer lesbare. Under kommentaren "List Comprehensions", kan man se hvordan vi har brukt list comprehensions til å bytte ut "T" i tidsstemplene med et mellomrom. På denne måte kan vi formatere datene uten å måtte bruke eksplisitte løkker, og det er mer effektivt. 
 
 3. Hvordan kan Pandas SQL (sqldf) forbedre datamanipuleringen sammenlignet med tradisjonelle Pandas-operasjoner?
 
     Det finnes flere grunner for å bruke pandas SQL ovenfor tradisjonelle Pandas-operasjoner. En god grunn kan være det at SQL-syntaks er ofte mer intuitivt og lettere å lese. Et annet poeng er det at Pandas SQL forenkler kompleks datahåndtering, i det at SQL gjør det enklere å utføre operasjoner som querys og subquerys. 
 
 4. Hvilke spesifikke uregelmessigheter i dataene forventer du å møte, og hvordan planlegger du å håndtere dem?
+
+    1. Manglende verdier
+        Dette håndterer vi ved å fjerne rader med manglende verdier.
+    2. Ekstreme eller feilaktige verdier
+        De fysiske sensorene kan gi urealistiske målinger, disse planlegger vi å filtrere ut i koden.
+    3. Dupliserte rader
+        Dersom en rad blir duplisert eller gjentas flere ganger, vil vi filtrere de ut i koden.
+    4. Manglende enheter eller inkonsekvent skalering
+        Dersom verdiene fra sensorene er i forskjellige måleenheter, for eksempel at vindhastigheten kommer i m/s og ikke km/t, vil vi konvertere disse verdiene slik at de blir i km/t. 
