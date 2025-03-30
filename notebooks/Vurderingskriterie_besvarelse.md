@@ -32,11 +32,11 @@ Oppgave 3
 
 4. Hvilke spesifikke uregelmessigheter i dataene forventer du å møte, og hvordan planlegger du å håndtere dem?
 
-    1. Manglende verdier
+    1. Manglende verdier:
         Dette håndterer vi ved å fjerne rader med manglende verdier.
-    2. Ekstreme eller feilaktige verdier
+    2. Ekstreme eller feilaktige verdier:
         De fysiske sensorene kan gi urealistiske målinger, disse planlegger vi å filtrere ut i koden.
-    3. Dupliserte rader
+    3. Dupliserte rader:
         Dersom en rad blir duplisert eller gjentas flere ganger, vil vi filtrere de ut i koden.
-    4. Manglende enheter eller inkonsekvent skalering
-        Dersom verdiene fra sensorene er i forskjellige måleenheter, for eksempel at vindhastigheten kommer i m/s og ikke km/t, vil vi konvertere disse verdiene slik at de blir i km/t. 
+    4. Manglende enheter eller inkonsekvent skalering:
+        Dersom verdiene fra sensorene er i forskjellige måleenheter, for eksempel at vindhastigheten kommer i km/t og ikke m/s, vil vi konvertere disse verdiene slik at de blir i m/s. 
