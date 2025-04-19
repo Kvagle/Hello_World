@@ -8,7 +8,7 @@ Oppgave 2
 
     Det er brukt ulike teknikker for å lese inn dataen inn i koden som: requests.get() for henting av JSON – data, (weather_data.json) for videre bruk og lagring i JSON – fil, konvertering til CSV for enklere databehandling med Pandas (weather_data.csv) og for å trekke ut relevante data bruker vi pandasql.sqldf() for SQL – analyse.
 
-    Videre vil dette påvirke datakvaliteten og prosessen ved å ha et strukturert CSV – format, optimalisert datahåndtering og SQL. Et strukturert CSV – format vil gjøre dataen betraktelig enklere for bruk i analyseverktøy som Pandas og SQL. Videre vil en reduksjon av filstørrelsen forbedre ytelsen på koden ettersom kun de nødvendige detaljene trekkes ut på grunn av en effektiv datahåndtering. Til slutt, ved å trekke ut spesifikke målinger med SQL, som luftfuktighet og vind, vil dette produsere bedre innsikt i datasettene.
+    Videre vil dette påvirke datakvaliteten og prosessen ved å ha et strukturert CSV – format, optimalisert datahåndtering og SQL. Et strukturert CSV – format vil gjøre dataen betraktelig enklere for bruk i analyseverktøy som Pandas og SQL. Videre vil en reduksjon av filstørrelsen forbedre ytelsen på koden ettersom kun de nødvendige detaljene trekkes ut på grunn av en effektiv datahåndtering. Til slutt, ved å trekke ut spesifikke målinger med SQL som luftfuktighet og vind, vil dette produsere bedre innsikt i datasettene.
 
 
 3. Dersom det er brukt API-er, hvilke spesifikke API-er er valgt å bruke, og hva er de viktigste dataene som kan hentes fra disse kildene?
