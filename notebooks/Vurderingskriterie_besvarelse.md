@@ -61,7 +61,9 @@ Oppgave 4
     Visualiseringer som vil støtte analysen og hjelpe formidlingsevnen av dataen vil bestå av; søylediagram og tidsserieplott. Visualiseringene vil bistå med å gjøre statistiske funn enklere å forstå og gi visuell troverdighet for eventuelle konklusjoner som blir tatt i analysen.
     Søylediagram vil gi en rask visuell forståelse av spredningen av dataen hvor gjennomsnitt, median og standardavvik for lufttemperatur og vindhastighet sammenlignes. I tillegg vil tidsserieplott bidra til å identifisere trender og sesongvariasjoner i temperaturdataene ved å visualisere glidende gjennomsnitt av temperatur over tid.
 
+
 Oppgave 5
+
 1. Hvilke spesifikke typer visualiseringer planlegger du å lage for å representere endringer i luftkvalitet og temperaturdata, og hvorfor valgte du disse?
 
     For å vise ulike aspekter ved temperaturdataene blir det brukt forskjellige typer visualiseringer som; interaktiv graf, tabellvisning og tidsserieplot. Ved å kombinere interaktive og statiske former for å gjøre analysen mer tilgjengelig. Til slutt er de ulike typene visualiseringen valgt for å gi både detaljer og oversikt.
@@ -69,11 +71,23 @@ Oppgave 5
 
 2. Hvordan kan Matplotlib og Seaborn brukes til å forbedre forståelsen av de analyserte dataene, og hvilke funksjoner i disse bibliotekene vil være mest nyttige?
 
+    Ved å bruke både Matplotlib og Seaborn vil bibliotekene gi både fleksibilitet og kraft slik at det er mulig å tilpasse visualiseringene til målgruppen.
+    Matplotlib har funksjoner som «plt.plot()», «plt.xticks(rotation=45)» og «plt.tight_layout()». Dette gir både god kontroll over layout og visning og brukes til den interaktive grafen, som er en tilpasset plotting. Til slutt har Seaborn funksjoner som bygger på Matplotlib. Dette gir mer estetiske standardstiler og enklere syntaks. Funksjonen «sns.lineplot()» brukes for å tegne tydelige tidsseriegrader med automatisk håndtering av datoer og utjevning av kurver.
 
 3. Hvordan vil du håndtere og visualisere manglende data i grafene dine for å sikre at de fortsatt er informative?
 
+    Ved å bruke Pandas og metoder som «.dropna()» for å fjerne rader med manglende verdier eller fylle inn verdier basert på tidligere observasjoner med «.fillna(method='ffill')», kan vi håndtere og visualisere manglende data.
 
-4. Kan du beskrive prosessen for å lage interaktive visualiseringer med Widgets, Plotly eller Bokeh, og hvilke fordeler dette kan gi i forhold til statiske visualiseringer?
+4. Kan du beskrive prosessen for å lage interaktive visualiseringer med Widgets, Plotly eller Bokeh, og hvilke fordeler dette kan gi i forhold til statiske             visualiseringer?
 
+    Sammen med ipywidgets og Matplotlib blir en interaktiv visualisering tegnet der brukeren kan endre på lengden på det glidende gjennomsnittet via en slider med «IntSlider». Dynamisk innsikt er en fordel med de interaktive visualiseringene. I tillegg kan brukere utforske dataen selv og tilpasse visningen til eget behov. Dette vil gjøre presentasjonen mer engasjerende. Prosessen for å lage interaktive visualiseringer er slik:
+    
+    1.	Definer en funksjon som tegner grafen basert på en variabel (her: window). 
+    2.	Bruke interact() fra ipywidgets for å knytte funksjonen til en kontroll – widget.
+    3.	Oppdatere grafen automatisk når brukeren justerer parameteren.
 
 5. Hvordan vil du evaluere effektiviteten av visualiseringene dine i å formidle de viktigste funnene fra dataanalysen til et bredere publikum?
+
+    Ved å bruke ulike evalueringsmetoder som; formidling, klarhet og tilgjengelighet vil visualiseringen vurderes for de viktigste funnene fra dataanalysene til et bredere publikum.
+    Innenfor formidling kan det vurderes ut ifra om farger og formater brukes riktig for å fremheve viktige verdier. Videre er klarhet/tydelighet essensielt. Ved å se om er dataen er lett å forstå uten forklaring. Til slutt er tilgjengelighet viktig for å se om grafene er enkle å lese på tvers av ulike plattformer og målgrupper.
+
