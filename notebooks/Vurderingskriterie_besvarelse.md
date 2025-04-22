@@ -91,3 +91,20 @@ Oppgave 5
     Ved å bruke ulike evalueringsmetoder som; formidling, klarhet og tilgjengelighet vil visualiseringen vurderes for de viktigste funnene fra dataanalysene til et bredere publikum.
     Innenfor formidling kan det vurderes ut ifra om farger og formater brukes riktig for å fremheve viktige verdier. Videre er klarhet/tydelighet essensielt. Ved å se om er dataen er lett å forstå uten forklaring. Til slutt er tilgjengelighet viktig for å se om grafene er enkle å lese på tvers av ulike plattformer og målgrupper.
 
+Oppgave 6
+
+1. Lag minst tre forskjellige typer visualiseringer (f.eks. linjediagrammer, søylediagrammer og scatterplots) for å representere endringer i luftkvalitet og temperaturdata over tid. Forklar valget av visualiseringstype for hver graf.
+
+    1. For graf nummer en, ville vi teste ut nøyaktigheten til den lineære regresjonsmodellen. Derfor valgte vi et scatterplot, med en diagonal linje som fungerer som en ideel referanse. Jo nærmere punktene ligger denne linja, desto mer presis er modellen. Scatterplots er spesielt gode til å vise avvik og spredning, noe som er sentralt i vurderingen av en regresjonsanalyse.
+    2. For graf nummer to, ville vi visualisere temperaturutviklingen over tid. Vi valgte og gruppere målingene per dag, og da var et linjediagram naturlig, etter som det viser en klar trend, enten den er stigende, synkende eller variabel. Bruken av punktmarkeringer i tillegg til linjen gjør visualiseringen mer presis, og gjør det enklere å se enkeltmålinger.
+    3. For graf nummer tre, ville vi vise hvordan temperaturen varierer i løpet av et typisk døgn, uavhengig av dato. Søylediagrammet gir en lettfattelig sammenligning mellom ulike tidspunkt på døgnet, og lar oss se mønstre som for eksempel at temperaturen er lavest på natten og høyest på ettermiddagen. 
+
+2. Implementer visualiseringer ved hjelp av Matplotlib og Seaborn. Inkluder tilpassede akser, titler, og fargepaletter for å forbedre lesbarheten og estetikk.
+
+3. Demonstrer hvordan manglende data håndteres i visualiseringene. Lag en graf som viser hvordan manglende verdier påvirker datatrender, og diskuter hvordan dette kan påvirke tolkningen av dataene.
+
+    Denne er vanskelig å svare på enn så lenge da vi ikke helt helt sikkre på visualiseringen av feildataen.
+
+4. Skriv en kort evaluering av de utviklede visualiseringene. Diskuter hvilke visualiseringer som var mest effektive for å formidle informasjon, og hvorfor. Reflekter over tilbakemeldinger fra medstudenter eller veileder.
+
+    Graf nummer en var litt rotete å lese informasjon av, å lite praktisk for daglig bruk. Likevel er det en god måte å måle hvor presis den lineære regresjonsmodellen er. Graf nummer to var effektiv og enkel å forstå. Den gir umiddelbart en god forståelse av værutviklingen. Graf nummer tre var også svært effektiv, og noe man ofte finner fra værdata distributører som yr. Å formiddle værdataen hver klokketime kan for mange være svært nyttig. Vi konkulderer altså med at graf nummer to og tre var de mest effektive for å formidle informasjon.
