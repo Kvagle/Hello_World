@@ -40,3 +40,40 @@ Oppgave 3
         Dersom en rad blir duplisert eller gjentas flere ganger, vil vi filtrere de ut i koden.
     4. Manglende enheter eller inkonsekvent skalering:
         Dersom verdiene fra sensorene er i forskjellige måleenheter, for eksempel at vindhastigheten kommer i km/t og ikke m/s, vil vi konvertere disse verdiene slik at de blir i m/s. 
+
+
+Oppgave 4
+
+1. Hvordan kan du bruke NumPy og Pandas til å beregne gjennomsnitt, median og standardavvik for de innsamlede dataene, og hvorfor er disse statistiske målene viktige?
+
+    For å enkelt beregne grunnleggende statistiske mål for variablene i datasettet, som lufttemperatur og vindhastighet. Kan vi bruke NumPy – funksjoner som «np.mean», «np.median» og «np.std». For å utføre våre beregninger konverterer koden relevante kolonner fra «df_cleaned» til Numpy – arrays. Dette er meget nyttig ettersom; gjennomsnitt gir et bilde av det generelle. Medianen gir et bedre mål for sentraltendens i ujevn data og er robust mot ekstreme verdier. Til slutt gir standardavviket innsikt i hvor stabile miljøforholdene er og viser variasjonen av data fra gjennomsnittet.
+
+2. Kan du gi et eksempel på hvordan du vil implementere en enkel statistisk analyse for å undersøke sammenhengen mellom to variabler i datasettet?
+
+    Et eksempel er å undersøke sammenhengen mellom lufttemperatur og vindhastigheten som en korrelasjonsanalyse i koden. Dette gjør vi med funksjonen «df_cleaned['Lufttemperatur'].corr(df_cleaned['Vindhastighet'])». Dette vil utgi en verdi mellom -1 og 1, som indikerer hvor sterkt og i hvilken retning variablene har samvariasjon. En negativ korrelasjon betyr at når temperaturen minker, vil dette også utspillet seg for vindhastigheten. Videre vil dette også skje for positiv korrelasjon, men omvendt for temperatur og vindhastighet.
+
+3. Hvordan planlegger du å håndtere eventuelle skjevheter i dataene under analysen, og hvilke metoder vil du bruke for å sikre at analysen er pålitelig?
+
+    For å håndtere eventuelle skjevheter i dataen under analysen vil vi bruke IQR – metoden (Interquatile Range). Metoden filtrerer bort ekstreme verdier i dataen rundt lufttemperatur. Dette blir oppnådd ved å identifisere og fjerne verdier før videre analyse som er utenfor IQR fra kvartalene Q1 og Q3 ganget med 1.5. Ved en slik metode reduseres risikoen for enkelbestemte ekstreme målinger forvrenger resultatene, og til slutt gjør dette analysen mer pålitelig.
+
+4. Hvilke visualiseringer vil du lage for å støtte analysen din, og hvordan vil disse visualiseringene hjelpe deg med å formidle funnene dine?
+
+    Visualiseringer som vil støtte analysen og hjelpe formidlingsevnen av dataen vil bestå av; søylediagram og tidsserieplott. Visualiseringene vil bistå med å gjøre statistiske funn enklere å forstå og gi visuell troverdighet for eventuelle konklusjoner som blir tatt i analysen.
+    Søylediagram vil gi en rask visuell forståelse av spredningen av dataen hvor gjennomsnitt, median og standardavvik for lufttemperatur og vindhastighet sammenlignes. I tillegg vil tidsserieplott bidra til å identifisere trender og sesongvariasjoner i temperaturdataene ved å visualisere glidende gjennomsnitt av temperatur over tid.
+
+Oppgave 5
+1. Hvilke spesifikke typer visualiseringer planlegger du å lage for å representere endringer i luftkvalitet og temperaturdata, og hvorfor valgte du disse?
+
+    For å vise ulike aspekter ved temperaturdataene blir det brukt forskjellige typer visualiseringer som; interaktiv graf, tabellvisning og tidsserieplot. Ved å kombinere interaktive og statiske former for å gjøre analysen mer tilgjengelig. Til slutt er de ulike typene visualiseringen valgt for å gi både detaljer og oversikt.
+    Først for å utforske trendene på en fleksibel måte vil en interaktiv graf med gjennomsnitt av temperatur med justerbart tidsvindu utnyttes. Videre vil tabellvisning med utvalgte tidspunkter gjøre det lettere å identifisere mønstre gjennom dagen. I tillegg vil fargekoding visualisert i tabellen gi en rask visuell forståelse av temperaturtopper og soner. Til slutt, vil tidsserieplot gi god innsikt i trender og variasjoner ved hjelp av Seaborn som viser utviklingen i lufttemperatur over tid.
+
+2. Hvordan kan Matplotlib og Seaborn brukes til å forbedre forståelsen av de analyserte dataene, og hvilke funksjoner i disse bibliotekene vil være mest nyttige?
+
+
+3. Hvordan vil du håndtere og visualisere manglende data i grafene dine for å sikre at de fortsatt er informative?
+
+
+4. Kan du beskrive prosessen for å lage interaktive visualiseringer med Widgets, Plotly eller Bokeh, og hvilke fordeler dette kan gi i forhold til statiske visualiseringer?
+
+
+5. Hvordan vil du evaluere effektiviteten av visualiseringene dine i å formidle de viktigste funnene fra dataanalysen til et bredere publikum?
