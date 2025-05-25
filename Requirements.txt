@@ -1,4 +1,4 @@
-#Srkiv "pip install -r requirements.txt" i terminalen for å laste ned alt du trenger for å kjøre koden
+
 
 pandas
 pandasql
