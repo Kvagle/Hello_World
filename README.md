@@ -16,7 +16,7 @@ Til slutt ønsker vi å nevne at medlemmer av gruppen har tidligere erfaring i c
 I mappen vil du finne mappene "CSV" og "JSON", og "README.md"-fil. Mappene har værdata som er lagret for prosjektet og et tekstdokument som forklarer mappen.
 
 # Docs
-I mappen vil du finne mappene "ki" og "tasks", "refleksjonsnotat.md"-fil, "README.md"-fil og "Vurderingskriterie_besvarelse.md"-fil. Hvor man finner ki-deklarasjonen, oppgavene for prosjektet, refleksjonsbesvarelsen av oppgave 7, vår besvarelse av vurderingskriterier gjennom prosjektet og et tekstdokument som forklarer mappen.
+I mappen vil du finne mappene "Besvarelse av vurderingskriterier", "KI", "Refleksjonsnotat", "Tasks" og "README.md"-fil. Hvor man finner ki-deklarasjonen, oppgavene for prosjektet, refleksjonsbesvarelsen av oppgave 7, vår besvarelse av vurderingskriterier gjennom prosjektet og et tekstdokument som forklarer mappen.
 
 # Kode værapp for småfly
 I mappen vil du finne "kode.ipynb" og "README.md"-fil. Hvor python-filen med besvarelsekoden ligger og et tekstdokument som forklarer mappen.
