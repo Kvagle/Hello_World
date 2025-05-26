@@ -1,2 +1,2 @@
 ## Data
-I mappen "data" vil "CSV" og "JSON" være plassert. Mappen viser ulike teknikker benyttet for innlesing og behandling av værdata.
+I mappen "data" vil "CSV" og "JSON" være plassert. Mappen viser ulike teknikker benyttet for innlesing og behandling av værdata. Datafilene vil genereres og plasseres i tilsvarende mapper da koden kjøres. Altså vil csv filen som genereres bli plasser i csv mappen og json filen som genereres bli plassert i json mappen. 
