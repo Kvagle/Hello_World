@@ -2,6 +2,7 @@ import unittest
 import pandas as pd
 import numpy as np
 
+# henter inn formlene fra "formler_fra_kode" filen
 from formler_fra_kode import clean_data, compute_moving_average
 
 class TestWeatherUtils(unittest.TestCase):
@@ -11,7 +12,7 @@ class TestWeatherUtils(unittest.TestCase):
             "Lufttemperatur": [20.1, np.nan, 15.5],
             "Vindhastighet": [5.0, 3.2, np.nan]
         })
-
+        
         cleaned_data_frame = clean_data(data_frame)
         self.assertFalse(cleaned_data_frame.isnull().values.any())
         self.assertEqual(len(cleaned_data_frame), 1)

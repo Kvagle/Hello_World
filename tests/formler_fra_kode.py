@@ -1,4 +1,5 @@
-# src/data_utils.py
+# formler kopiert fra kode.ipynb filen vår
+
 import pandas as pd
 import numpy as np
 
