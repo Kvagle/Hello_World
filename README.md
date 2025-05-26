@@ -8,7 +8,7 @@ I vårt prosjekt i TDT4114 har vi valgt å utvikle et førsteutkast til "værapp
 
 Videre valgte vi å rette appen mot småflypiloter, i motsetning til piloter i den kommersielle luftindustrien. Slik som Norwegian- eller SAS-fly, av typen Boeing 737. Dette gir anledningen for mer en spesialisert og optimalisert tjeneste for småflypilotene. 
 
-Til slutt ønsker vi å nevne at medlemmer av gruppen har tidligere erfaring i c++, i et annet emne. Vi har også benyttet oss av bekjente/kontaktperson med relevant faglig bakgrunn og arbeidserfaring for tilbakemeldinger og veiledning. Dette inkluderer en bekjent med mastergrad i Human-Computer Interaction fra Kristiana (2023), en avdelingsleder innen cybersikkerhet i Equinor og studentassistent.
+Til slutt ønsker vi å nevne at medlemmer av gruppen har tidligere erfaring i C++, i et annet emne. Vi har også benyttet oss av bekjente/kontaktperson med relevant faglig bakgrunn og arbeidserfaring for tilbakemeldinger og veiledning. Dette inkluderer en bekjent med mastergrad i Human-Computer Interaction fra Kristiana (2023), en avdelingsleder innen cybersikkerhet i Equinor og studentassistent.
 
 
 ## Oversikt over mappene i prosjektet
@@ -16,7 +16,7 @@ Til slutt ønsker vi å nevne at medlemmer av gruppen har tidligere erfaring i c
 I mappen vil du finne mappene "CSV" og "JSON", og "README.md"-fil. Mappene har værdata som er lagret for prosjektet og et tekstdokument som forklarer mappen.
 
 # Docs
-I mappen vil du finne mappene "ki" og "tasks", "refleksjonsnotat.md"-fil, "README.md"-fil og "Vurderingskriterie_besvarelse.md"-fil. Hvor man finner ki-deklarasjonen, oppgavene for prosjektet, refleksjonsbesvarelsen av oppgave 7, vår besvarelse av vurderingskriterier gjennom prosjektet og et tekstdokument som forklarer mappen.
+I mappen vil du finne mappene "Besvarelse av vurderingskriterier", "Refleksjonsnotat", "ki", "tasks" og "README.md"-fil. Hvor man finner ki-deklarasjonen, oppgavene for prosjektet, refleksjonsbesvarelsen av oppgave 7, vår besvarelse av vurderingskriterier gjennom prosjektet og et tekstdokument som forklarer mappen.
 
 # Kode værapp for småfly
 I mappen vil du finne "kode.ipynb" og "README.md"-fil. Hvor python-filen med besvarelsekoden ligger og et tekstdokument som forklarer mappen.
